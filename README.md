@@ -2,6 +2,9 @@
 This is where the iOS project stuff goes~!
 
 **Screens:**
+0. Launch Screen:
+	* *Avaree*
+	* [ ] Find out how do -> do.
 1. Splash Screen:
 	* *Avaree*
 	* [ ] Will contain app name.
@@ -9,11 +12,12 @@ This is where the iOS project stuff goes~!
 	* [ ] Option to make a new reservation.
 2. Pick Table Screen:
 	* *Oliver*
+	* 2D Drawings or PickerView?
 	* [ ] Will allow the user to choose a table that they’ll sit at.
 	* [ ] Alert will be used to confirm selection.
 3. Menu Select Screen:
 	* *Oliver*
-	* 2D Drawings or PickerView?
+	* PickerView?
 	* [ ] Guest picks dishes and quantities for dishes. 
 	* [ ] A total is given to them at the bottom. 
 4. Confirmation Screen:
