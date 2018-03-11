@@ -10,7 +10,7 @@ This is where the iOS project stuff goes~!
 2. Pick Table Screen:
 	* *Oliver*
 	* [ ] Will allow the user to choose a table that they’ll sit at.
-ç[ ] Alert will be used to confirm selection.
+	* [ ] Alert will be used to confirm selection.
 3. Menu Select Screen:
 	* *Oliver*
 	* 2D Drawings or PickerView?
