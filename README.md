@@ -4,6 +4,7 @@ This is where the iOS project stuff goes~!
 **Screens:**
 1. Splash Screen:
 - [ ] Will contain app name.
+	* Avaree
 - [ ] Option to view existing reservations.
 - [ ] Option to make a new reservation.
 2. Pick Table Screen:
