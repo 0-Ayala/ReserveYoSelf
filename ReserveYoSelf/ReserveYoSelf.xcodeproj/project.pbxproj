@@ -17,6 +17,12 @@
 		75B932DA2055D30B003CBE81 /* ReserveYoSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932D92055D30B003CBE81 /* ReserveYoSelfTests.swift */; };
 		75B932E52055D30B003CBE81 /* ReserveYoSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */; };
 		9B203E2E2057328200C2E39D /* logo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E2D2057328200C2E39D /* logo.tiff */; };
+		9B203E30205732F200C2E39D /* texttitle.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E2F205732F200C2E39D /* texttitle.tiff */; };
+		9B203E32205732F700C2E39D /* nametime.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E31205732F600C2E39D /* nametime.tiff */; };
+		9B203E372057348500C2E39D /* pickadish.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E332057348500C2E39D /* pickadish.tiff */; };
+		9B203E382057348500C2E39D /* reservationdetails.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E342057348500C2E39D /* reservationdetails.tiff */; };
+		9B203E392057348500C2E39D /* reservations.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E352057348500C2E39D /* reservations.tiff */; };
+		9B203E3A2057348500C2E39D /* Pickatable.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9B203E362057348500C2E39D /* Pickatable.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveYoSelfUITests.swift; sourceTree = "<group>"; };
 		75B932E62055D30B003CBE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B203E2D2057328200C2E39D /* logo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = logo.tiff; path = ../../../logo.tiff; sourceTree = "<group>"; };
+		9B203E2F205732F200C2E39D /* texttitle.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = texttitle.tiff; path = ../../../texttitle.tiff; sourceTree = "<group>"; };
+		9B203E31205732F600C2E39D /* nametime.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = nametime.tiff; path = ../../../nametime.tiff; sourceTree = "<group>"; };
+		9B203E332057348500C2E39D /* pickadish.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pickadish.tiff; path = ../../../pickadish.tiff; sourceTree = "<group>"; };
+		9B203E342057348500C2E39D /* reservationdetails.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = reservationdetails.tiff; path = ../../../reservationdetails.tiff; sourceTree = "<group>"; };
+		9B203E352057348500C2E39D /* reservations.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = reservations.tiff; path = ../../../reservations.tiff; sourceTree = "<group>"; };
+		9B203E362057348500C2E39D /* Pickatable.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Pickatable.tiff; path = ../../../Pickatable.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				75B932C82055D30B003CBE81 /* Main.storyboard */,
 				75B932CB2055D30B003CBE81 /* Assets.xcassets */,
 				75B932CD2055D30B003CBE81 /* LaunchScreen.storyboard */,
+				9B203E332057348500C2E39D /* pickadish.tiff */,
+				9B203E362057348500C2E39D /* Pickatable.tiff */,
+				9B203E342057348500C2E39D /* reservationdetails.tiff */,
+				9B203E352057348500C2E39D /* reservations.tiff */,
+				9B203E31205732F600C2E39D /* nametime.tiff */,
+				9B203E2F205732F200C2E39D /* texttitle.tiff */,
 				9B203E2D2057328200C2E39D /* logo.tiff */,
 				75B932D02055D30B003CBE81 /* Info.plist */,
 				756B00FA20571404009BC36E /* ReservationDatePickerViewController.swift */,
@@ -243,7 +261,13 @@
 			files = (
 				75B932CF2055D30B003CBE81 /* LaunchScreen.storyboard in Resources */,
 				9B203E2E2057328200C2E39D /* logo.tiff in Resources */,
+				9B203E30205732F200C2E39D /* texttitle.tiff in Resources */,
 				75B932CC2055D30B003CBE81 /* Assets.xcassets in Resources */,
+				9B203E3A2057348500C2E39D /* Pickatable.tiff in Resources */,
+				9B203E32205732F700C2E39D /* nametime.tiff in Resources */,
+				9B203E372057348500C2E39D /* pickadish.tiff in Resources */,
+				9B203E392057348500C2E39D /* reservations.tiff in Resources */,
+				9B203E382057348500C2E39D /* reservationdetails.tiff in Resources */,
 				75B932CA2055D30B003CBE81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
