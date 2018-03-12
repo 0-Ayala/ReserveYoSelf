@@ -97,7 +97,6 @@
 		75B932B82055D30B003CBE81 = {
 			isa = PBXGroup;
 			children = (
-				756B00FC20573434009BC36E /* Reservation.swift */,
 				75B932C32055D30B003CBE81 /* ReserveYoSelf */,
 				75B932D82055D30B003CBE81 /* ReserveYoSelfTests */,
 				75B932E32055D30B003CBE81 /* ReserveYoSelfUITests */,
@@ -118,6 +117,7 @@
 		75B932C32055D30B003CBE81 /* ReserveYoSelf */ = {
 			isa = PBXGroup;
 			children = (
+				756B00FC20573434009BC36E /* Reservation.swift */,
 				756B00F82056E38A009BC36E /* ReservationsController.swift */,
 				75B932C42055D30B003CBE81 /* AppDelegate.swift */,
 				75B932C62055D30B003CBE81 /* ViewController.swift */,
