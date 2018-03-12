@@ -8,9 +8,11 @@
 
 import UIKit
 
+var reservations = [String:[String]]()
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
 
