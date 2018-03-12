@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -30,7 +30,7 @@
             <objects>
                 <viewController id="rpM-yU-qdI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6mf-zo-9UV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hW5-4j-BbX"/>
@@ -40,27 +40,30 @@
             </objects>
             <point key="canvasLocation" x="868" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--My Reservations-->
         <scene sceneID="kz5-T2-Ag4">
             <objects>
                 <viewController id="T1m-7H-p4G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OIw-vH-Q3m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LlE-rR-l6C"/>
                     </view>
+                    <navigationItem key="navigationItem" title="My Reservations" id="HhM-CD-Yen">
+                        <barButtonItem key="backBarButtonItem" title="jk" id="6qm-cp-6ew"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i8B-Eq-hEB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="843"/>
+            <point key="canvasLocation" x="868" y="1559"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q7F-1t-C6E">
             <objects>
                 <viewController id="vyp-fq-VP0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ldT-D1-YG8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fsl-Q0-eQd"/>
@@ -70,12 +73,12 @@
             </objects>
             <point key="canvasLocation" x="868" y="844"/>
         </scene>
-        <!--Your Reservations-->
+        <!--My Reservations-->
         <scene sceneID="3vm-yL-o7x">
             <objects>
                 <tableViewController id="6G9-by-MoJ" customClass="ReservationsController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LeW-3a-BVl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -83,7 +86,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KlE-54-MPw" id="aC3-Fn-RWp">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dim-ia-Axy">
@@ -99,6 +102,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="T1m-7H-p4G" kind="show" id="DKu-2c-SwN"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -106,7 +112,7 @@
                             <outlet property="delegate" destination="6G9-by-MoJ" id="Zdd-2D-gTd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Your Reservations" id="e2F-e2-hgv"/>
+                    <navigationItem key="navigationItem" title="My Reservations" id="e2F-e2-hgv"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6m-67-Q1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,7 +123,7 @@
             <objects>
                 <navigationController id="5NX-f0-M7d" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6nO-xB-dyC">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -133,7 +139,7 @@
             <objects>
                 <viewController id="1Lp-Pw-4Qb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eAj-dc-aK3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wfo-Bp-ROw"/>
@@ -141,7 +147,67 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFn-1a-Csl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="868" y="1561"/>
+            <point key="canvasLocation" x="-620" y="844"/>
+        </scene>
+        <!--Reservation Date Picker-->
+        <scene sceneID="eW7-u5-HLx">
+            <objects>
+                <viewController id="si0-gc-GgN" customClass="ReservationDatePicker" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NM7-WQ-I8h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQB-AE-qFT">
+                                <rect key="frame" x="0.0" y="142" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="542561527.55167496">
+                                    <!--2018-03-12 15:32:07 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="542552400">
+                                    <!--2018-03-12 13:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Your Reservation Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNZ-7L-qLL">
+                                <rect key="frame" x="83" y="61" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1b-Gg-dxB">
+                                <rect key="frame" x="157" y="430" width="61" height="30"/>
+                                <state key="normal" title="Get Date"/>
+                                <connections>
+                                    <action selector="getDate:" destination="si0-gc-GgN" eventType="touchUpInside" id="6qp-1d-xqQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Date Will Appear Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx0-eN-UfT">
+                                <rect key="frame" x="83" y="366" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q1b-Gg-dxB" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="157" id="4I9-mr-o2J"/>
+                            <constraint firstItem="VQB-AE-qFT" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" id="8iB-oL-5Ad"/>
+                            <constraint firstItem="VQB-AE-qFT" firstAttribute="top" secondItem="aNZ-7L-qLL" secondAttribute="bottom" constant="60" id="F4D-hM-fhx"/>
+                            <constraint firstItem="aNZ-7L-qLL" firstAttribute="top" secondItem="Nj2-qV-Gf7" secondAttribute="top" constant="17" id="G7u-94-jp5"/>
+                            <constraint firstItem="Yx0-eN-UfT" firstAttribute="top" secondItem="VQB-AE-qFT" secondAttribute="bottom" constant="8" id="JEb-77-JRp"/>
+                            <constraint firstItem="VQB-AE-qFT" firstAttribute="trailing" secondItem="Nj2-qV-Gf7" secondAttribute="trailing" id="OuQ-ev-gYX"/>
+                            <constraint firstItem="aNZ-7L-qLL" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="83" id="dha-as-IVU"/>
+                            <constraint firstItem="Q1b-Gg-dxB" firstAttribute="top" secondItem="Yx0-eN-UfT" secondAttribute="bottom" constant="43" id="int-8r-TZa"/>
+                            <constraint firstItem="Yx0-eN-UfT" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="83" id="lib-cV-gcV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nj2-qV-Gf7"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="Yx0-eN-UfT" id="uWs-Fi-gSE"/>
+                        <outlet property="pickDate" destination="VQB-AE-qFT" id="h5S-BS-lKP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7l7-t5-UIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="844"/>
         </scene>
     </scenes>
 </document>
