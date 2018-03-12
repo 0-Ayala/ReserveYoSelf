@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texttitle.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="dm0-Pz-RmC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texttitle2" translatesAutoresizingMaskIntoConstraints="NO" id="dm0-Pz-RmC">
                                 <rect key="frame" x="41" y="76" width="292" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -63,7 +63,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pickatable.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="RjV-hy-3Ve">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pickatable2" translatesAutoresizingMaskIntoConstraints="NO" id="RjV-hy-3Ve">
                                 <rect key="frame" x="21" y="82" width="333" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nametime.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="Pq1-1h-K8W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nametime2" translatesAutoresizingMaskIntoConstraints="NO" id="Pq1-1h-K8W">
                                 <rect key="frame" x="41" y="76" width="292" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -294,9 +294,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pickatable.tiff" width="503" height="172"/>
-        <image name="nametime.tiff" width="501" height="242"/>
-        <image name="texttitle.tiff" width="611" height="210"/>
+        <image name="Pickatable2" width="503" height="172"/>
+        <image name="nametime2" width="501" height="242"/>
+        <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="MDt-nR-PrP"/>
