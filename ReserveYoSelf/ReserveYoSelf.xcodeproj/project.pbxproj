@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		756B00F92056E38A009BC36E /* ReservationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00F82056E38A009BC36E /* ReservationsController.swift */; };
 		756B00FB20571404009BC36E /* ReservationDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00FA20571404009BC36E /* ReservationDatePickerViewController.swift */; };
+		756B00FD20573434009BC36E /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00FC20573434009BC36E /* Reservation.swift */; };
 		75B932C52055D30B003CBE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932C42055D30B003CBE81 /* AppDelegate.swift */; };
 		75B932C72055D30B003CBE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932C62055D30B003CBE81 /* ViewController.swift */; };
 		75B932CA2055D30B003CBE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B932C82055D30B003CBE81 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		756B00F82056E38A009BC36E /* ReservationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsController.swift; sourceTree = "<group>"; };
 		756B00FA20571404009BC36E /* ReservationDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDatePickerViewController.swift; sourceTree = "<group>"; };
+		756B00FC20573434009BC36E /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 		75B932C12055D30B003CBE81 /* ReserveYoSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReserveYoSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B932C42055D30B003CBE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75B932C62055D30B003CBE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		75B932B82055D30B003CBE81 = {
 			isa = PBXGroup;
 			children = (
+				756B00FC20573434009BC36E /* Reservation.swift */,
 				75B932C32055D30B003CBE81 /* ReserveYoSelf */,
 				75B932D82055D30B003CBE81 /* ReserveYoSelfTests */,
 				75B932E32055D30B003CBE81 /* ReserveYoSelfUITests */,
@@ -271,6 +274,7 @@
 			files = (
 				75B932C72055D30B003CBE81 /* ViewController.swift in Sources */,
 				756B00FB20571404009BC36E /* ReservationDatePickerViewController.swift in Sources */,
+				756B00FD20573434009BC36E /* Reservation.swift in Sources */,
 				75B932C52055D30B003CBE81 /* AppDelegate.swift in Sources */,
 				756B00F92056E38A009BC36E /* ReservationsController.swift in Sources */,
 			);
