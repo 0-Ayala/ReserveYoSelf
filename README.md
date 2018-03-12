@@ -36,7 +36,7 @@ This is where the iOS project stuff goes~!
 
 **API Features:**
 - [ ] Quartz 2D drawing
-- [ ] Each table will need to be its own object, and so it will be its own 2D drawing. 
+	* Each table will need to be its own object, and so it will be its own 2D drawing. 
 - [ ] Table View
-- [ ] Reservations list will be table view of reservations.
+	* Reservations list will be table view of reservations.
 

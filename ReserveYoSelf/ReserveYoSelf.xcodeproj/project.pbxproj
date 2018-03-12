@@ -14,6 +14,7 @@
 		75B932CF2055D30B003CBE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B932CD2055D30B003CBE81 /* LaunchScreen.storyboard */; };
 		75B932DA2055D30B003CBE81 /* ReserveYoSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932D92055D30B003CBE81 /* ReserveYoSelfTests.swift */; };
 		75B932E52055D30B003CBE81 /* ReserveYoSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */; };
+		75B932F32055F75F003CBE81 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932F22055F75F003CBE81 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		75B932E02055D30B003CBE81 /* ReserveYoSelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReserveYoSelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveYoSelfUITests.swift; sourceTree = "<group>"; };
 		75B932E62055D30B003CBE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B932F22055F75F003CBE81 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				75B932C42055D30B003CBE81 /* AppDelegate.swift */,
 				75B932C62055D30B003CBE81 /* ViewController.swift */,
 				75B932C82055D30B003CBE81 /* Main.storyboard */,
+				75B932F22055F75F003CBE81 /* TableViewController.swift */,
 				75B932CB2055D30B003CBE81 /* Assets.xcassets */,
 				75B932CD2055D30B003CBE81 /* LaunchScreen.storyboard */,
 				75B932D02055D30B003CBE81 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B932C72055D30B003CBE81 /* ViewController.swift in Sources */,
+				75B932F32055F75F003CBE81 /* TableViewController.swift in Sources */,
 				75B932C52055D30B003CBE81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
