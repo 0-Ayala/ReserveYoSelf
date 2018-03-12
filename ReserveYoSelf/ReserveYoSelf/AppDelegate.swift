@@ -8,7 +8,7 @@
 
 import UIKit
 
-var reservations = [String:[String]]()
+var reservations = [String:[Reservation]]()
 
 
 @UIApplicationMain

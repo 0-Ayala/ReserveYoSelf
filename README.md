@@ -4,10 +4,10 @@ This is where the iOS project stuff goes~!
 **Screens:**
 1. Launch Screen:
 	* *Avaree*
-	* [ ] Find out how do -> do.
+	* [X] Find out how do -> do.
 2. Splash Screen:
 	* *Avaree*
-	* [ ] Will contain app name.
+	* [X] Will contain app name.
 	* [ ] Option to view existing reservations.
 	* [ ] Option to make a new reservation.
 3. Pick Table Screen:
@@ -25,10 +25,10 @@ This is where the iOS project stuff goes~!
 	* [ ] Guest enters their name and when they’d like their reservation to occur. 
 6. Reservations Screen:
 	* *Artur*
-	* A table view with all the current reservations.
+	* [ ] A table view with all the current reservations.
 7. Reservation Info Screen:
 	* *Artur*
-	* Details on a specific order.
+	* [ ] Details on a specific order.
 
 
 
