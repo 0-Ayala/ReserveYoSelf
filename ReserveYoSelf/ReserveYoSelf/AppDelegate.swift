@@ -14,6 +14,8 @@ var temp_name = ""
 var temp_date : Date = Date.init()
 var temp_meal = "pasta"
 var temp_table = 0
+var selectedRes = Reservation(name: temp_name, date: temp_date, meal: temp_meal, table: temp_table)
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
