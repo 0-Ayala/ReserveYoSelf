@@ -58,7 +58,7 @@
         <!--Pick Your Table View Controller-->
         <scene sceneID="2kZ-Bm-xxH">
             <objects>
-                <viewController id="rpM-yU-qdI" customClass="PickYourTableViewController" customModule="ReserveYoSelf" sceneMemberID="viewController">
+                <viewController id="rpM-yU-qdI" customClass="PickYourTableViewController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6mf-zo-9UV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,7 +193,7 @@
         <!--My Reservations-->
         <scene sceneID="kz5-T2-Ag4">
             <objects>
-                <viewController id="T1m-7H-p4G" sceneMemberID="viewController">
+                <viewController id="T1m-7H-p4G" customClass="ReservationsController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OIw-vH-Q3m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,11 +333,11 @@
             </objects>
             <point key="canvasLocation" x="-620" y="1559"/>
         </scene>
-        <!--Reservation Date Picker-->
+        <!--Reservation Date Picker View Controller-->
         <scene sceneID="eW7-u5-HLx">
             <objects>
-                <viewController id="si0-gc-GgN" customClass="ReservationDatePicker" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NM7-WQ-I8h" customClass="UIControl">
+                <viewController id="si0-gc-GgN" customClass="ReservationDatePickerViewController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NM7-WQ-I8h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -363,7 +363,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pickyodate" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-Lr-Cad" customClass="pickyodate">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pickyodate" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-Lr-Cad">
                                 <rect key="frame" x="28" y="44" width="318" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -374,7 +374,6 @@
                                     <barButtonItem title="Back" id="Fc3-cX-ayE">
                                         <connections>
                                             <action selector="switchBack:" destination="si0-gc-GgN" id="Ysm-nF-jCL"/>
-                                            <segue destination="rpM-yU-qdI" kind="show" id="iVj-1c-qgb"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -408,8 +407,7 @@
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SWl-y2-A6u"/>
+        <segue reference="K8B-fp-5pQ"/>
         <segue reference="2c1-eI-dpq"/>
-        <segue reference="iVj-1c-qgb"/>
     </inferredMetricsTieBreakers>
 </document>
