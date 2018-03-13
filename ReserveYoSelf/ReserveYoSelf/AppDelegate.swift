@@ -15,7 +15,6 @@ var temp_date : Date = Date.init()
 var temp_meal = "pasta"
 var temp_table = 0
 
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?

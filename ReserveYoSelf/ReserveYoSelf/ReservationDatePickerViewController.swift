@@ -12,12 +12,14 @@ class ReservationDatePickerViewController: UIViewController {
     
     @IBOutlet weak var pickDate: UIDatePicker!
     
-    //find a way to trim this
-    @IBOutlet weak var dateLabel: UILabel!
+    //@IBOutlet weak var dateLabel: UILabel!
     
-    //doesn't work
-    @IBAction func pickDate(_ sender: UIDatePicker) {
-        temp_date = sender.date
+//    //doesn't work
+//    @IBAction func reserevDate(_ sender: UIButton) {
+//
+//    }
+    @IBAction func reserveDate(_ sender: Any) {
+        temp_date = (pickDate.date)
     }
     
     @IBAction func goBack(_ sender: UIBarButtonItem) {
@@ -25,14 +27,14 @@ class ReservationDatePickerViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        dateLabel.text = Date.init().description
-        pickDate.minimumDate = Date.init()
+//        super.viewDidLoad()
+//        dateLabel.text = Date.init().description
+//        pickDate.minimumDate = Date.init()
         // Do any additional setup after loading the view.
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        dateLabel.text = Date.init().description
+        //dateLabel.text = Date.init().description
         pickDate.minimumDate = Date.init()
     }
     
