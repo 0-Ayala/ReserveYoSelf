@@ -38,10 +38,12 @@ class ReservationsController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        selectedRes = reservationList[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuse identifier", for: indexPath)
         
         cell.textLabel?.text = reservationList[indexPath.row].name
-
+        cell.detailTextLabel?.text = reservationList[indexPath.row].name
         return cell
     }
 
