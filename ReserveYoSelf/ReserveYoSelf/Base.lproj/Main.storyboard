@@ -268,6 +268,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="keyBoardExit:" destination="vyp-fq-VP0" eventType="editingDidEnd" id="g4w-ui-hWY"/>
+                                </connections>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1o8-WO-44h">
                                 <rect key="frame" x="0.0" y="768" width="375" height="44"/>

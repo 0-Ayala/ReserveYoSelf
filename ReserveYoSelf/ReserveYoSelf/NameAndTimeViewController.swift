@@ -34,7 +34,7 @@ class NameAndTimeViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func alertCancel() {
+    func alertCancel() {
         let title = "Error"
         let message = "Text field 'NAME' needs to be filled in"
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -44,7 +44,7 @@ class NameAndTimeViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-    @IBAction func characterAlert() {
+    func characterAlert() {
         let title = "Error"
         let message = "Text field 'NAME' needs to have more than 1 character"
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
