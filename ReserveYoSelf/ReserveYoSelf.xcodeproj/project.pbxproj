@@ -11,7 +11,6 @@
 		756B00F92056E38A009BC36E /* ReservationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00F82056E38A009BC36E /* ReservationsController.swift */; };
 		756B00FB20571404009BC36E /* ReservationDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00FA20571404009BC36E /* ReservationDatePickerViewController.swift */; };
 		756B00FD20573434009BC36E /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00FC20573434009BC36E /* Reservation.swift */; };
-		756B00FF205743E9009BC36E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756B00FE205743E9009BC36E /* Details.swift */; };
 		75B932C52055D30B003CBE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932C42055D30B003CBE81 /* AppDelegate.swift */; };
 		75B932C72055D30B003CBE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932C62055D30B003CBE81 /* ViewController.swift */; };
 		75B932CA2055D30B003CBE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B932C82055D30B003CBE81 /* Main.storyboard */; };
@@ -290,7 +289,6 @@
 			files = (
 				75B932C72055D30B003CBE81 /* ViewController.swift in Sources */,
 				756B00FB20571404009BC36E /* ReservationDatePickerViewController.swift in Sources */,
-				756B00FF205743E9009BC36E /* Details.swift in Sources */,
 				756B00FD20573434009BC36E /* Reservation.swift in Sources */,
 				9B203E3E2057424600C2E39D /* NameAndTimeViewController.swift in Sources */,
 				9B203E3C2057422B00C2E39D /* Screen1.swift in Sources */,
