@@ -225,11 +225,7 @@
                                 <rect key="frame" x="0.0" y="768" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Back" id="M2t-o5-8wy">
-                                        <connections>
-                                            <segue destination="si0-gc-GgN" kind="show" id="snQ-4k-TGZ"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Back" id="M2t-o5-8wy"/>
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHK-zp-RhK">
@@ -356,11 +352,7 @@
                                 <rect key="frame" x="0.0" y="768" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Back" id="Fc3-cX-ayE">
-                                        <connections>
-                                            <action selector="switchBack:" destination="si0-gc-GgN" id="Ysm-nF-jCL"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Back" id="Fc3-cX-ayE"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -392,7 +384,6 @@
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="snQ-4k-TGZ"/>
-        <segue reference="MDt-nR-PrP"/>
+        <segue reference="2c1-eI-dpq"/>
     </inferredMetricsTieBreakers>
 </document>
