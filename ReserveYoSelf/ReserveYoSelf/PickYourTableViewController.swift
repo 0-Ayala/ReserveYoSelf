@@ -1,18 +1,17 @@
 //
-//  ReservationDatePickerViewController.swift
+//  PickYourTableViewController.swift
 //  ReserveYoSelf
 //
-//  Created by artur oganezov on 3/12/18.
+//  Created by Olivia Ayala on 3/12/18.
 //  Copyright © 2018 iOSfinal. All rights reserved.
 //
 
 import UIKit
 
-class ReservationDatePickerViewController: UIViewController {
+class PickYourTableViewController: UIViewController {
+
+    @IBOutlet var tableButtons: [UIButton]!
     
-    @IBAction func switchBack(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
