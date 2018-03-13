@@ -15,8 +15,6 @@ class  Reservation {
     var meal: String
     var table: Int
     
-    
-    
     init(name: String, date: Date, meal: String, table: Int) {
         self.name = name
         self.date = date

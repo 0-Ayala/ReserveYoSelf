@@ -9,20 +9,23 @@
 import UIKit
 
 class NameAndTimeViewController: UIViewController {
-
+    //consider bar item over confirm
+    
     @IBOutlet weak var nameText: UITextField!
     
-    
     @IBAction func confirmButton(_ sender: UIButton) {
+        //what's the difference??
         if((nameText.text?.count)! < 1){
             characterAlert()
         }
         if((nameText.text?.count)! == 0){
             alertCancel()
         }
+        temp_name = nameText.text!
+        reservationList.append(Reservation(name: temp_name, date: temp_date, meal: temp_meal, table: Int(temp_table)))
     }
     
-    
+    //doesn't work
     @IBAction func keyBoardExit(_ sender: UITextField) {
         sender.resignFirstResponder()
     }

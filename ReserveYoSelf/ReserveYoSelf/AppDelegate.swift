@@ -8,7 +8,12 @@
 
 import UIKit
 
-var reservationList = [String:[Reservation]]()
+var reservationList = [Reservation]()
+
+var temp_name = ""
+var temp_date : Date = Date.init()
+var temp_meal = "pasta"
+var temp_table = 0
 
 
 @UIApplicationMain

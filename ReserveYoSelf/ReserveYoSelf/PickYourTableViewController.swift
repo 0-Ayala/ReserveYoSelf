@@ -10,7 +10,13 @@ import UIKit
 
 class PickYourTableViewController: UIViewController {
 
+    @IBOutlet weak var tableLabel: UILabel!
     @IBOutlet var tableButtons: [UIButton]!
+    @IBAction func tableSelected(_ sender: UIButton) {
+        tableLabel.text = "Selected table \(sender.titleLabel!.text ?? "1")"
+        temp_table = Int(sender.titleLabel!.text!)!
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
