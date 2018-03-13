@@ -97,7 +97,7 @@
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="SWl-y2-A6u"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="uZA-SW-WAg"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kC-6l-Kuc">
@@ -111,9 +111,6 @@
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="VeW-Ax-Ukg"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -127,9 +124,6 @@
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="82i-Uj-nGj"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4um-WF-XfG">
                                                 <rect key="frame" x="124" y="0.0" width="100" height="100"/>
@@ -138,9 +132,6 @@
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="eZF-IT-tRy"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -154,9 +145,6 @@
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" red="0.9971372221" green="1" blue="0.99143987310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="FTH-Gf-tUT"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgL-8K-6Sr">
                                                 <rect key="frame" x="124" y="0.0" width="100" height="100"/>
@@ -165,9 +153,6 @@
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" red="0.9971372221" green="1" blue="0.99143987310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="yxQ-QK-Hpt"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -242,7 +227,7 @@
                                 <items>
                                     <barButtonItem title="Back" id="M2t-o5-8wy">
                                         <connections>
-                                            <segue destination="si0-gc-GgN" kind="show" id="K8B-fp-5pQ"/>
+                                            <segue destination="si0-gc-GgN" kind="show" id="snQ-4k-TGZ"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -407,7 +392,7 @@
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="K8B-fp-5pQ"/>
-        <segue reference="2c1-eI-dpq"/>
+        <segue reference="snQ-4k-TGZ"/>
+        <segue reference="MDt-nR-PrP"/>
     </inferredMetricsTieBreakers>
 </document>
