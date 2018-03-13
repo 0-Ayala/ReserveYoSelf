@@ -98,7 +98,7 @@
         <scene sceneID="q7F-1t-C6E">
             <objects>
                 <viewController id="vyp-fq-VP0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ldT-D1-YG8">
+                    <view key="view" contentMode="scaleToFill" id="ldT-D1-YG8" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -116,22 +116,6 @@
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iKe-Cz-Jr6">
                                 <rect key="frame" x="192" y="387" width="141" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihS-X6-52J">
-                                <rect key="frame" x="77" y="479" width="107" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1gE-4e-WWf">
-                                <rect key="frame" x="192" y="500" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
@@ -240,7 +224,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQB-AE-qFT">
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQB-AE-qFT">
                                 <rect key="frame" x="0.0" y="142" width="375" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="542561527.55167496">
                                     <!--2018-03-12 15:32:07 +0000-->
@@ -249,35 +233,30 @@
                                     <!--2018-03-12 13:00:00 +0000-->
                                 </date>
                             </datePicker>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Your Reservation Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNZ-7L-qLL">
-                                <rect key="frame" x="83" y="61" width="208" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1b-Gg-dxB">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1b-Gg-dxB">
                                 <rect key="frame" x="157" y="430" width="61" height="30"/>
                                 <state key="normal" title="Get Date"/>
                                 <connections>
                                     <action selector="getDate:" destination="si0-gc-GgN" eventType="touchUpInside" id="6qp-1d-xqQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Date Will Appear Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx0-eN-UfT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Your Date Will Appear Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx0-eN-UfT">
                                 <rect key="frame" x="83" y="366" width="208" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pickyodate" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-Lr-Cad" customClass="pickyodate">
+                                <rect key="frame" x="28" y="44" width="318" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Q1b-Gg-dxB" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="157" id="4I9-mr-o2J"/>
                             <constraint firstItem="VQB-AE-qFT" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" id="8iB-oL-5Ad"/>
-                            <constraint firstItem="VQB-AE-qFT" firstAttribute="top" secondItem="aNZ-7L-qLL" secondAttribute="bottom" constant="60" id="F4D-hM-fhx"/>
-                            <constraint firstItem="aNZ-7L-qLL" firstAttribute="top" secondItem="Nj2-qV-Gf7" secondAttribute="top" constant="17" id="G7u-94-jp5"/>
                             <constraint firstItem="Yx0-eN-UfT" firstAttribute="top" secondItem="VQB-AE-qFT" secondAttribute="bottom" constant="8" id="JEb-77-JRp"/>
                             <constraint firstItem="VQB-AE-qFT" firstAttribute="trailing" secondItem="Nj2-qV-Gf7" secondAttribute="trailing" id="OuQ-ev-gYX"/>
-                            <constraint firstItem="aNZ-7L-qLL" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="83" id="dha-as-IVU"/>
                             <constraint firstItem="Q1b-Gg-dxB" firstAttribute="top" secondItem="Yx0-eN-UfT" secondAttribute="bottom" constant="43" id="int-8r-TZa"/>
                             <constraint firstItem="Yx0-eN-UfT" firstAttribute="leading" secondItem="Nj2-qV-Gf7" secondAttribute="leading" constant="83" id="lib-cV-gcV"/>
                         </constraints>
@@ -290,12 +269,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7l7-t5-UIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="844"/>
+            <point key="canvasLocation" x="140" y="843.8423645320197"/>
         </scene>
     </scenes>
     <resources>
         <image name="Pickatable2" width="503" height="172"/>
         <image name="nametime2" width="501" height="242"/>
+        <image name="pickyodate" width="532" height="205"/>
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
