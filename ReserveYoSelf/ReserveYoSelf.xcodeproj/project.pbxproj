@@ -95,6 +95,7 @@
 				75B932D82055D30B003CBE81 /* ReserveYoSelfTests */,
 				75B932E32055D30B003CBE81 /* ReserveYoSelfUITests */,
 				75B932C22055D30B003CBE81 /* Products */,
+				9B203E41205750C500C2E39D /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,14 @@
 				75B932E62055D30B003CBE81 /* Info.plist */,
 			);
 			path = ReserveYoSelfUITests;
+			sourceTree = "<group>";
+		};
+		9B203E41205750C500C2E39D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				756B00FE205743E9009BC36E /* Details.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

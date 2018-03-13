@@ -10,12 +10,23 @@ import UIKit
 
 class NameAndTimeViewController: UIViewController {
 
+    @IBOutlet weak var nameText: UITextField!
     
+    
+    @IBAction func confirmButton(_ sender: UIButton) {
+        if((nameText.text?.count)! < 1){
+            characterAlert()
+        }
+        if((nameText.text?.count)! == 0){
+            alertCancel()
+        }
+    }
     
     
     @IBAction func keyBoardExit(_ sender: UITextField) {
         sender.resignFirstResponder()
     }
+    
     
     @IBAction func alertCancel() {
         let title = "Error"
