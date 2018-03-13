@@ -112,7 +112,7 @@
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="J2K-6C-Wzp"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="VeW-Ax-Ukg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -128,7 +128,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="K1K-a8-byx"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="82i-Uj-nGj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4um-WF-XfG">
@@ -139,7 +139,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="e7o-4N-YS7"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="eZF-IT-tRy"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -155,7 +155,7 @@
                                                     <color key="titleColor" red="0.9971372221" green="1" blue="0.99143987310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="AR4-81-c65"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="FTH-Gf-tUT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgL-8K-6Sr">
@@ -166,7 +166,7 @@
                                                     <color key="titleColor" red="0.9971372221" green="1" blue="0.99143987310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="si0-gc-GgN" kind="show" id="WKU-24-Ptu"/>
+                                                    <segue destination="si0-gc-GgN" kind="show" id="yxQ-QK-Hpt"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -408,7 +408,7 @@
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="J2K-6C-Wzp"/>
+        <segue reference="SWl-y2-A6u"/>
         <segue reference="2c1-eI-dpq"/>
         <segue reference="iVj-1c-qgb"/>
     </inferredMetricsTieBreakers>
