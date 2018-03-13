@@ -15,9 +15,6 @@ class NameAndTimeViewController: UIViewController {
     
     @IBAction func confirmButton(_ sender: UIButton) {
         //what's the difference??
-        if((nameText.text?.count)! < 1){
-            characterAlert()
-        }
         if((nameText.text?.count)! == 0){
             alertCancel()
         }
@@ -44,15 +41,15 @@ class NameAndTimeViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-    func characterAlert() {
-        let title = "Error"
-        let message = "Text field 'NAME' needs to have more than 1 character"
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(
-            title:"Okay", style: .cancel, handler: nil))
-        
-        present(alertController, animated: true, completion: nil)
-    } 
+//    func characterAlert() {
+//        let title = "Error"
+//        let message = "Text field 'NAME' needs to have more than 1 character"
+//        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(
+//            title:"Okay", style: .cancel, handler: nil))
+//        
+//        present(alertController, animated: true, completion: nil)
+//    } 
     
     
     override func viewDidLoad() {
