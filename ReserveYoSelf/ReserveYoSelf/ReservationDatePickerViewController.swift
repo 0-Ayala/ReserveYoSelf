@@ -20,6 +20,10 @@ class ReservationDatePickerViewController: UIViewController {
         temp_date = sender.date
     }
     
+    @IBAction func goBack(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dateLabel.text = Date.init().description

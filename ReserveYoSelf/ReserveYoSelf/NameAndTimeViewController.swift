@@ -30,6 +30,9 @@ class NameAndTimeViewController: UIViewController {
         sender.resignFirstResponder()
     }
     
+    @IBAction func goBack(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     
     @IBAction func alertCancel() {
         let title = "Error"
