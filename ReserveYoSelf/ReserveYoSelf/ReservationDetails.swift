@@ -14,15 +14,17 @@ class ReservationDetails: UIViewController {
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var table: UILabel!
     @IBOutlet weak var dish: UILabel!
+    
+    var res: Reservation?
    
 
-    
-    
     override func viewWillAppear(_ animated: Bool) {
-        name.text = selectedRes.name
-        date.text = selectedRes.date.description
-        dish.text = selectedRes.meal
-        table.text = String(selectedRes.table)
+        if let r = res {
+            name.text = r.name
+            date.text = r.date.description
+            dish.text = r.meal
+            table.text = String(r.table)
+        }
     }
     
     

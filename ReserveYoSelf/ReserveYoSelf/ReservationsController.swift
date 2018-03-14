@@ -11,8 +11,10 @@ import UIKit
 class ReservationsController: UITableViewController {
 
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if let indexOath = self.tableView.indexPathForSelectedRow {
-                ReservationDetails
+            if let detailViewController = segue.destination as? ReservationDetails {
+                if let indexPath = self.tableView.indexPathForSelectedRow {
+                    detailViewController.res = reservationList[indexPath.row]
+                }
             }
         }
     
@@ -51,6 +53,10 @@ class ReservationsController: UITableViewController {
         cell.textLabel?.text = reservationList[indexPath.row].name
         cell.detailTextLabel?.text = "" //reservationList[indexPath.row].name
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            performSegue(withIdentifier: "toDetails", sender: self)
     }
 
     /*
