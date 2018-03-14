@@ -212,7 +212,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a table" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9R-PP-lyu">
-                                <rect key="frame" x="75" y="677" width="224" height="21"/>
+                                <rect key="frame" x="75" y="677" width="224" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -259,7 +259,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="103" id="dBV-PI-Hys"/>
                                     <constraint firstAttribute="width" secondItem="9BX-NN-L3X" secondAttribute="height" multiplier="115:103" id="rYz-Vn-guo"/>
-                                    <constraint firstAttribute="width" constant="115" id="ui0-oN-qrQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
