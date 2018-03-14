@@ -30,7 +30,10 @@ class Pickyodish: UIViewController {
         quantityTEXT.resignFirstResponder()
     }
     
-    //list needs to be an array that hosts an x between the description and quantity
+    @IBAction func goBack(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+  
     @IBAction func newList(_ sender: UIButton) {
         if(sender.isEnabled){
             list.text = "";
