@@ -25,9 +25,6 @@ class ReservationDatePickerViewController: UIViewController {
         let yourDate = formatter.date(from: myString)
         formatter.dateFormat = "dd-MMM-yyyy HH:mm"
         let myStringafd = formatter.string(from: yourDate!)
-        print(temp_date)
-        print(myStringafd)
-        print("HELLO WORLD")
         temp_date = myStringafd
         
         
