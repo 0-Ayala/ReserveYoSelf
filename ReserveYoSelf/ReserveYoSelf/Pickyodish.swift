@@ -49,7 +49,7 @@ class Pickyodish: UIViewController {
     
     
     @IBAction func addItem(_ sender: UIButton) {
-        var complete = descrip + "x" + quant
+        var complete = descrip + " x " + quant
         temp_meal = complete
         if(sender.isEnabled){
             if(descrip != "" || quant != "") {
