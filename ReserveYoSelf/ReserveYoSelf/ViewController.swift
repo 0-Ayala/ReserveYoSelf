@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController {
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
@@ -15,7 +16,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge,.sound]) { (success, error) in
+            if (error != nil) {
+                print("Authorization failed")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
