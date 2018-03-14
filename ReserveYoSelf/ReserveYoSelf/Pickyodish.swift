@@ -11,18 +11,20 @@ import UIKit
 class Pickyodish: UIViewController {
 
     @IBOutlet weak var dish: UITextField!;
-    
-    var meals = ["Pasta", "Soupz", "Grains", "Raw Onions","Squid", "Wine in a can", "Football"]
-    
     @IBOutlet weak var list: UITextView!
     @IBOutlet weak var addBool: UIButton!
     
     var temp = ""
     var x = "x"
     var quant = ""
+    var descrip = ""
     
     @IBOutlet var textFields: [UITextField]!
     @IBOutlet weak var quantityTEXT: UITextField!
+    
+    @IBAction func keyBoardExit(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
     
     @IBAction func backgroundTouched(_ sender: UIControl) {
         quantityTEXT.resignFirstResponder()
@@ -41,16 +43,16 @@ class Pickyodish: UIViewController {
     @IBAction func newItem(_ sender: UIButton) {
         if(sender.isEnabled){
             quantityTEXT.text = ""
+            dish.text = ""
         }
     }
     
     
-    
     @IBAction func addItem(_ sender: UIButton) {
-        _ = selected
-        var complete =  selected + "x" + quant
+        var complete = descrip + "x" + quant
+        temp_meal = complete
         if(sender.isEnabled){
-            if(quant != "") {
+            if(descrip != "" || quant != "") {
                 if(list.text != "No dishes selected") {
                     list.text! += "\(complete + "\n")";
                 } else {
@@ -61,7 +63,7 @@ class Pickyodish: UIViewController {
             }
             else {
                 let title = "Input Error"
-                let message = "Your input for Quantity is invalid"
+                let message = "Your input for Description and Quantity is invalid"
                 let alertController = UIAlertController(title: title,
                                                         message: message, preferredStyle: .alert)
                 alertController.addAction(UIAlertAction(
@@ -80,37 +82,26 @@ class Pickyodish: UIViewController {
         
     }
     
+    @IBAction func descriptionText(_ sender: UITextField) {
+        if(sender.text != ""){
+            descrip = sender.text!;
+        }
+    }
+    
     @IBAction func clearAction() {
         for tf in textFields {
             tf.text = ""
         }
         quant = ""
+        descrip = ""
     }
    
     //--------------------------------------------------------
     
-    @IBOutlet var MyPickerView: UIPickerView!
-    var selected = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        MyPickerView.delegate = self as? UIPickerViewDelegate
-        MyPickerView.dataSource = self as? UIPickerViewDataSource
         
-        selected = meals[0] // setting the default value
-        
-    }
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return meals.count
-    }
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return "\(meals[row])"
-    }
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        selected = meals[row]
-    }
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        return 1
     }
     
     override func didReceiveMemoryWarning() {

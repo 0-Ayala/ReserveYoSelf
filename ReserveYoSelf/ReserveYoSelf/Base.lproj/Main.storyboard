@@ -553,10 +553,6 @@
                                     <action selector="quantityText:" destination="BG1-AN-yCs" eventType="editingDidEnd" id="nXv-rf-aKY"/>
                                 </connections>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2v-Fl-4B5">
-                                <rect key="frame" x="169" y="260" width="150" height="88"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dV5-XZ-vdw">
                                 <rect key="frame" x="164" y="432" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -609,15 +605,28 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dyo-KR-T7Z">
+                                <rect key="frame" x="178" y="289" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="descriptionText:" destination="BG1-AN-yCs" eventType="editingDidEnd" id="7lu-7N-K4C"/>
+                                    <action selector="keyBoardExit:" destination="BG1-AN-yCs" eventType="editingDidEndOnExit" id="1PM-f0-3ws"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="SWb-ol-dPH"/>
                     </view>
                     <connections>
-                        <outlet property="MyPickerView" destination="M2v-Fl-4B5" id="qzc-Tk-ek1"/>
+                        <outlet property="dish" destination="dyo-KR-T7Z" id="aHc-WK-TcI"/>
                         <outlet property="list" destination="9a0-Xc-9wq" id="2J6-9k-R5f"/>
                         <outlet property="quantityTEXT" destination="UxV-Hi-LX1" id="HZG-9P-vbS"/>
                         <outletCollection property="textFields" destination="UxV-Hi-LX1" collectionClass="NSMutableArray" id="sQB-GC-ux0"/>
+                        <outletCollection property="textFields" destination="dyo-KR-T7Z" collectionClass="NSMutableArray" id="HmO-AV-OFR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qno-nH-HND" userLabel="First Responder" sceneMemberID="firstResponder"/>
