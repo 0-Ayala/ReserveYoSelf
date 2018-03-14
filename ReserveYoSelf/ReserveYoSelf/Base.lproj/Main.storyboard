@@ -413,12 +413,25 @@
                             <outlet property="delegate" destination="6G9-by-MoJ" id="Zdd-2D-gTd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Reservations" id="e2F-e2-hgv"/>
+                    <navigationItem key="navigationItem" title="My Reservations" id="e2F-e2-hgv">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="j0c-bl-612">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cp5-E2-sFZ">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="toHome:" destination="6G9-by-MoJ" eventType="touchUpInside" id="QdL-Uk-Uah"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="T1m-7H-p4G" kind="show" identifier="toDetails" id="elo-oi-5Q1"/>
+                        <segue destination="BSq-Vo-gf5" kind="unwind" identifier="toStart" unwindAction="prepareForUnwindWithSegue:" id="ALG-EE-la4"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6m-67-Q1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="BSq-Vo-gf5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-66.400000000000006" y="1628.5714285714287"/>
         </scene>
@@ -432,9 +445,11 @@
                     </navigationBar>
                     <connections>
                         <segue destination="6G9-by-MoJ" kind="relationship" relationship="rootViewController" id="k8U-e9-Rf7"/>
+                        <segue destination="3UW-Uo-Wvh" kind="unwind" identifier="toStart" unwindAction="prepareForUnwindWithSegue:" id="Azc-kV-dfb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RcK-68-GRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="3UW-Uo-Wvh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1026" y="1629"/>
         </scene>
@@ -506,6 +521,6 @@
         <image name="texttitle2" width="611" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tqn-sO-SKj"/>
+        <segue reference="y8E-of-Z0P"/>
     </inferredMetricsTieBreakers>
 </document>
