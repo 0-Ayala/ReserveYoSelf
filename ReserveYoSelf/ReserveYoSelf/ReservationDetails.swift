@@ -15,9 +15,7 @@ class ReservationDetails: UIViewController {
     @IBOutlet weak var table: UILabel!
     @IBOutlet weak var dish: UILabel!
    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        <#code#>
-//    }
+
     
     
     override func viewWillAppear(_ animated: Bool) {

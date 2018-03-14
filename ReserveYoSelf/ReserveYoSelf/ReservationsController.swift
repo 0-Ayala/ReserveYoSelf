@@ -10,6 +10,12 @@ import UIKit
 
 class ReservationsController: UITableViewController {
 
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let indexOath = self.tableView.indexPathForSelectedRow {
+                ReservationDetails
+            }
+        }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,10 +46,10 @@ class ReservationsController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         selectedRes = reservationList[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuse identifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "basic", for: indexPath)
         
         cell.textLabel?.text = reservationList[indexPath.row].name
-        cell.detailTextLabel?.text = reservationList[indexPath.row].name
+        cell.detailTextLabel?.text = "" //reservationList[indexPath.row].name
         return cell
     }
 
