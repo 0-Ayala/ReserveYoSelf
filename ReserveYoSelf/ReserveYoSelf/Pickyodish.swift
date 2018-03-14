@@ -33,22 +33,6 @@ class Pickyodish: UIViewController {
     @IBAction func goBack(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-  
-    @IBAction func newList(_ sender: UIButton) {
-        if(sender.isEnabled){
-            list.text = "";
-            if(list.text == ""){
-                list.text = "No dishes selected";
-            }
-        }
-    }
-    
-    @IBAction func newItem(_ sender: UIButton) {
-        if(sender.isEnabled){
-            quantityTEXT.text = ""
-            dish.text = ""
-        }
-    }
     
     
     @IBAction func addItem(_ sender: UIButton) {
@@ -56,11 +40,7 @@ class Pickyodish: UIViewController {
         temp_meal = complete
         if(sender.isEnabled){
             if(descrip != "" || quant != "") {
-                if(list.text != "No dishes selected") {
-                    list.text! += "\(complete + "\n")";
-                } else {
-                    list.text! = "\(complete + "\n")";
-                }
+                list.text! = "\(complete + "\n")";
                 clearAction()
                 complete = ""
             }
