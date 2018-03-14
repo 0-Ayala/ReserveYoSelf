@@ -11,7 +11,7 @@ import UIKit
 class Pickyodish: UIViewController {
 
     @IBOutlet weak var dish: UITextField!;
-    @IBOutlet weak var list: UITextView!
+    @IBOutlet weak var list: UILabel!
     @IBOutlet weak var addBool: UIButton!
     
     var temp = ""
@@ -76,7 +76,8 @@ class Pickyodish: UIViewController {
     
     
     @IBAction func quantityText(_ sender: UITextField) {
-        if(sender.text != ""){
+        
+        if(sender.text != "" && (sender.text?.count)! < 3){
             quant = sender.text!;
         }
         
