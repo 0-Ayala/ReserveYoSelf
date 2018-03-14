@@ -267,7 +267,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQO-Pr-yHk">
                                 <rect key="frame" x="158" y="263" width="201" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -470,6 +470,9 @@
                                     <!--2018-03-12 13:00:00 +0000-->
                                 </date>
                                 <locale key="locale" localeIdentifier="en_US"/>
+                                <connections>
+                                    <action selector="reserveDate:" destination="si0-gc-GgN" eventType="valueChanged" id="mIp-CS-qvo"/>
+                                </connections>
                             </datePicker>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pickyodate" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-Lr-Cad">
                                 <rect key="frame" x="28" y="44" width="318" height="106"/>
@@ -487,7 +490,6 @@
                                     <barButtonItem width="223" style="plain" systemItem="fixedSpace" id="Tp5-eo-23S"/>
                                     <barButtonItem title="Pick Dish" id="J8P-NF-WOH">
                                         <connections>
-                                            <action selector="reserveDate:" destination="si0-gc-GgN" id="fc9-aA-k9w"/>
                                             <segue destination="BG1-AN-yCs" kind="show" id="jqX-bF-nG6"/>
                                         </connections>
                                     </barButtonItem>

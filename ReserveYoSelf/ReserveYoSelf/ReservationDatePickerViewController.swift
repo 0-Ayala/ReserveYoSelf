@@ -19,7 +19,15 @@ class ReservationDatePickerViewController: UIViewController {
 //
 //    }
     @IBAction func reserveDate(_ sender: Any) {
-        temp_date = (pickDate.date)
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        let myString = formatter.string(from: Date())
+        let yourDate = formatter.date(from: myString)
+        formatter.dateFormat = "dd-MMM-yyyy HH:mm"
+        let myStringafd = formatter.string(from: yourDate!)
+        temp_date = myStringafd
+        
+        
     }
     
     @IBAction func goBack(_ sender: UIBarButtonItem) {
