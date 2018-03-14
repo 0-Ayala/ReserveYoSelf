@@ -19,6 +19,7 @@
 		75B932CF2055D30B003CBE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B932CD2055D30B003CBE81 /* LaunchScreen.storyboard */; };
 		75B932DA2055D30B003CBE81 /* ReserveYoSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932D92055D30B003CBE81 /* ReserveYoSelfTests.swift */; };
 		75B932E52055D30B003CBE81 /* ReserveYoSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */; };
+		9B1D44BC2059AD3C00238327 /* Pickyodish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D44BB2059AD3C00238327 /* Pickyodish.swift */; };
 		9B203E3E2057424600C2E39D /* NameAndTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B203E3D2057424600C2E39D /* NameAndTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		75B932E02055D30B003CBE81 /* ReserveYoSelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReserveYoSelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B932E42055D30B003CBE81 /* ReserveYoSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveYoSelfUITests.swift; sourceTree = "<group>"; };
 		75B932E62055D30B003CBE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1D44BB2059AD3C00238327 /* Pickyodish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickyodish.swift; sourceTree = "<group>"; };
 		9B203E3D2057424600C2E39D /* NameAndTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				756B00FA20571404009BC36E /* ReservationDatePickerViewController.swift */,
 				9B203E3D2057424600C2E39D /* NameAndTimeViewController.swift */,
 				456AB9C52058662300BE00F0 /* ReservationDetails.swift */,
+				9B1D44BB2059AD3C00238327 /* Pickyodish.swift */,
 			);
 			path = ReserveYoSelf;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				75B932C72055D30B003CBE81 /* ViewController.swift in Sources */,
 				756B00FB20571404009BC36E /* ReservationDatePickerViewController.swift in Sources */,
 				756B00FD20573434009BC36E /* Reservation.swift in Sources */,
+				9B1D44BC2059AD3C00238327 /* Pickyodish.swift in Sources */,
 				456AB9C62058662300BE00F0 /* ReservationDetails.swift in Sources */,
 				9B203E3E2057424600C2E39D /* NameAndTimeViewController.swift in Sources */,
 				75B932C52055D30B003CBE81 /* AppDelegate.swift in Sources */,
