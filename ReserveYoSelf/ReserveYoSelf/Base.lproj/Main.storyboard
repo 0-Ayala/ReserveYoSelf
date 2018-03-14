@@ -395,7 +395,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="basic" textLabel="j5e-3l-I6D" detailTextLabel="PGF-ly-xiU" imageView="qzk-O3-HQF" rowHeight="87" style="IBUITableViewCellStyleSubtitle" id="KlE-54-MPw">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" accessoryType="detailButton" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="basic" textLabel="j5e-3l-I6D" imageView="qzk-O3-HQF" rowHeight="87" style="IBUITableViewCellStyleDefault" id="KlE-54-MPw">
                                 <rect key="frame" x="0.0" y="28" width="375" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KlE-54-MPw" id="aC3-Fn-RWp">
@@ -403,16 +403,9 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j5e-3l-I6D">
-                                            <rect key="frame" x="128" y="12" width="75" height="49"/>
+                                            <rect key="frame" x="128" y="0.0" width="199" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PGF-ly-xiU">
-                                            <rect key="frame" x="128" y="61.000000000000007" width="43.666666666666664" height="14.333333333333334"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -422,9 +415,6 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="T1m-7H-p4G" kind="show" id="o7Q-Hy-WB2"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -433,6 +423,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My Reservations" id="e2F-e2-hgv"/>
+                    <connections>
+                        <segue destination="T1m-7H-p4G" kind="show" identifier="toDetails" id="elo-oi-5Q1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6m-67-Q1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
