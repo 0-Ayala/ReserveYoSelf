@@ -59,7 +59,7 @@
         <scene sceneID="2kZ-Bm-xxH">
             <objects>
                 <viewController id="rpM-yU-qdI" customClass="PickYourTableViewController" customModule="ReserveYoSelf" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6mf-zo-9UV">
+                    <view key="view" contentMode="scaleToFill" id="6mf-zo-9UV" customClass="DrawingTableButton" customModule="ReserveYoSelf" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -199,16 +199,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7Z-F1-i20">
-                                <rect key="frame" x="164" y="208" width="46" height="63"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="L7Z-F1-i20" firstAttribute="centerX" secondItem="RjV-hy-3Ve" secondAttribute="centerX" id="Olz-52-9eo"/>
                             <constraint firstItem="xnO-ru-LL2" firstAttribute="leading" secondItem="hW5-4j-BbX" secondAttribute="leading" constant="75" id="aeJ-ww-Shv"/>
                             <constraint firstItem="hW5-4j-BbX" firstAttribute="trailing" secondItem="RjV-hy-3Ve" secondAttribute="trailing" constant="21" id="anQ-w9-Djx"/>
-                            <constraint firstItem="L7Z-F1-i20" firstAttribute="centerY" secondItem="RjV-hy-3Ve" secondAttribute="centerY" constant="100" id="eZ4-P7-Cy7"/>
                             <constraint firstItem="RjV-hy-3Ve" firstAttribute="top" secondItem="hW5-4j-BbX" secondAttribute="top" constant="38" id="jxe-BQ-trH"/>
                             <constraint firstItem="xnO-ru-LL2" firstAttribute="top" secondItem="RjV-hy-3Ve" secondAttribute="bottom" constant="48" id="oUE-M7-Aor"/>
                             <constraint firstItem="RjV-hy-3Ve" firstAttribute="leading" secondItem="hW5-4j-BbX" secondAttribute="leading" constant="21" id="x9A-1b-el9"/>

@@ -34,21 +34,3 @@ class PickYourTableViewController: UIViewController {
     }
 
 }
-
-class DrawingTableButton: UIButton {
-    
-    override func draw(_ rect: CGRect) {
-        let path = UIBezierPath(ovalIn: rect)
-        UIColor.green.setFill()
-        path.fill()
-    }
-    
-    /*
-     // Only override draw() if you perform custom drawing.
-     // An empty implementation adversely affects performance during animation.
-     override func draw(_ rect: CGRect) {
-     // Drawing code
-     }
-     */
-    
-}
