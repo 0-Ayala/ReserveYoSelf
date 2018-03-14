@@ -488,7 +488,7 @@
                                     <barButtonItem title="Pick Dish" id="J8P-NF-WOH">
                                         <connections>
                                             <action selector="reserveDate:" destination="si0-gc-GgN" id="fc9-aA-k9w"/>
-                                            <segue destination="vyp-fq-VP0" kind="show" id="ay9-FR-AoW"/>
+                                            <segue destination="BG1-AN-yCs" kind="show" id="jqX-bF-nG6"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -600,7 +600,11 @@
                                 <items>
                                     <barButtonItem title="Back" id="0u4-So-ioH"/>
                                     <barButtonItem width="238" style="plain" systemItem="fixedSpace" id="fPw-g2-ndO"/>
-                                    <barButtonItem title="Reserve Time" width="64.666666666666657" id="qZ7-kd-iGK"/>
+                                    <barButtonItem title="Reserve Name" width="64.666666666666657" id="qZ7-kd-iGK">
+                                        <connections>
+                                            <segue destination="vyp-fq-VP0" kind="show" id="z0E-Q0-M7Z"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -608,8 +612,10 @@
                         <viewLayoutGuide key="safeArea" id="SWb-ol-dPH"/>
                     </view>
                     <connections>
-                        <outlet property="dropDown" destination="M2v-Fl-4B5" id="OOo-VT-R6Y"/>
+                        <outlet property="MyPickerView" destination="M2v-Fl-4B5" id="qzc-Tk-ek1"/>
+                        <outlet property="list" destination="9a0-Xc-9wq" id="2J6-9k-R5f"/>
                         <outlet property="quantityTEXT" destination="UxV-Hi-LX1" id="HZG-9P-vbS"/>
+                        <outletCollection property="textFields" destination="UxV-Hi-LX1" collectionClass="NSMutableArray" id="sQB-GC-ux0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qno-nH-HND" userLabel="First Responder" sceneMemberID="firstResponder"/>

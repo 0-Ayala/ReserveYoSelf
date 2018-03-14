@@ -10,10 +10,9 @@ import UIKit
 
 class Pickyodish: UIViewController {
 
-    @IBOutlet weak var dish: UITextField!
-    @IBOutlet weak var dropDown: UIPickerView!
+    @IBOutlet weak var dish: UITextField!;
     
-    var meals = ["Pasta", "Soupz", "Grains", "Raw Onions"]
+    var meals = ["Pasta", "Soupz", "Grains", "Raw Onions","Squid", "Wine in a can", "Football"]
     
     @IBOutlet weak var list: UITextView!
     @IBOutlet weak var addBool: UIButton!
@@ -48,7 +47,8 @@ class Pickyodish: UIViewController {
     
     
     @IBAction func addItem(_ sender: UIButton) {
-        var complete =  "x" + quant
+        _ = selected
+        var complete =  selected + "x" + quant
         if(sender.isEnabled){
             if(quant != "") {
                 if(list.text != "No dishes selected") {
@@ -89,67 +89,33 @@ class Pickyodish: UIViewController {
    
     //--------------------------------------------------------
     
-    public func numberOfComponents(in pickerView: UIPickerView) -> Int{
-        return 1
-        
-    }
-    
-    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
-        
-        return meals.count
-        
-    }
-    
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
-        self.view.endEditing(true)
-        temp_meal = meals[row]
-        return meals[row]
-        
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        self.dish.text = self.meals[row]
-        self.dropDown.isHidden = true
-        
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        
-        if dish == self.dish {
-            self.dropDown.isHidden = false
-            //if you dont want the users to se the keyboard type:
-
-            textField.endEditing(true)
-        }
-        
-    }
-    
-    
-    
+    @IBOutlet var MyPickerView: UIPickerView!
+    var selected = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        MyPickerView.delegate = self as? UIPickerViewDelegate
+        MyPickerView.dataSource = self as? UIPickerViewDataSource
+        
+        selected = meals[0] // setting the default value
+        
     }
-
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return meals.count
+    }
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return "\(meals[row])"
+    }
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        selected = meals[row]
+    }
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
