@@ -21,13 +21,11 @@ class ReservationDatePickerViewController: UIViewController {
     @IBAction func reserveDate(_ sender: Any) {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-        let myString = formatter.string(from: Date())
+        let myString = formatter.string(from: pickDate.date)
         let yourDate = formatter.date(from: myString)
         formatter.dateFormat = "dd-MMM-yyyy HH:mm"
         let myStringafd = formatter.string(from: yourDate!)
         temp_date = myStringafd
-        
-        
     }
     
     @IBAction func goBack(_ sender: UIBarButtonItem) {
@@ -35,10 +33,8 @@ class ReservationDatePickerViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-//        super.viewDidLoad()
-//        dateLabel.text = Date.init().description
-//        pickDate.minimumDate = Date.init()
-        // Do any additional setup after loading the view.
+        super.viewDidLoad()
+        pickDate.minimumDate = Date.init()
     }
 
     override func viewDidAppear(_ animated: Bool) {
