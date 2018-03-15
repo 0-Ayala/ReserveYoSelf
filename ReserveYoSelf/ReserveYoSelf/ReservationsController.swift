@@ -41,7 +41,7 @@ class ReservationsController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
         let title = "Reservation"
-        let mesg = "You're reservation is at \(selectedRes.date). All members of party must be present to be seated."
+        let mesg = "You're reservation is at \(selectedRes.reserveDate). All members of party must be present to be seated."
         let alertController = UIAlertController(title: title, message: mesg, preferredStyle: .actionSheet)
         let overrideAction = UIAlertAction(title:"OK", style: .default, handler: nil)
         alertController.addAction(overrideAction)

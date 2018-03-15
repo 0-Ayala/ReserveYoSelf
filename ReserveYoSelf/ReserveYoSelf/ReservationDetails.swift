@@ -11,7 +11,7 @@ import UIKit
 class ReservationDetails: UIViewController {
 
     @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var date: UILabel!
+    @IBOutlet weak var reserveDate: UILabel!
     @IBOutlet weak var table: UILabel!
     @IBOutlet weak var dish: UILabel!
     
@@ -21,7 +21,7 @@ class ReservationDetails: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         if let r = res {
             name.text = r.name
-            date.text = r.date.description
+            reserveDate.text = r.reserveDate
             dish.text = r.meal
             table.text = String(r.table)
         }

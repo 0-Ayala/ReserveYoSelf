@@ -353,9 +353,9 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="6qm-cp-6ew"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="date" destination="kQO-Pr-yHk" id="zq0-ys-dS7"/>
                         <outlet property="dish" destination="doG-1a-Uqb" id="R9H-jJ-c3u"/>
                         <outlet property="name" destination="o9U-1y-P3Q" id="GQ6-S3-1Oh"/>
+                        <outlet property="reserveDate" destination="kQO-Pr-yHk" id="vcn-gg-HS3"/>
                         <outlet property="table" destination="SNS-UM-9ib" id="T8v-T3-QdE"/>
                     </connections>
                 </viewController>
