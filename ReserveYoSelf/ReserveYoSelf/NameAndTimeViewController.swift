@@ -22,7 +22,7 @@ class NameAndTimeViewController: UIViewController {
             alertTooLong()
         } else {
             temp_name = nameText.text!
-            reservationList.append(Reservation(name: temp_name, date: temp_date, meal: temp_meal, table: Int(temp_table)))
+            reservationList.append(Reservation(name: temp_name, reserveDate: temp_date, meal: temp_meal, table: Int(temp_table)))
             
             notification(inSeconds: 1) { (success) in
                 if success {}

@@ -11,13 +11,13 @@ import Foundation
 
 class  Reservation {
     var name: String
-    var date: String
+    var reserveDate: String
     var meal: String
     var table: Int
     
-    init(name: String, date: String, meal: String, table: Int) {
+    init(name: String, reserveDate: String, meal: String, table: Int) {
         self.name = name
-        self.date = date
+        self.reserveDate = reserveDate
         self.meal = meal
         self.table = table
     }
