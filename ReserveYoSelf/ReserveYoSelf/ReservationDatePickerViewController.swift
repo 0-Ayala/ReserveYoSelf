@@ -11,7 +11,7 @@ import UIKit
 class ReservationDatePickerViewController: UIViewController {
     
     @IBOutlet weak var pickDate: UIDatePicker!
-    
+    //for date picker. Converts date to string to be displayed later.
     @IBAction func reserveDate(_ sender: Any) {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"

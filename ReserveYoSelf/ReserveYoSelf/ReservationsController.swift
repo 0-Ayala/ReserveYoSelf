@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//table view controller
 class ReservationsController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let detailViewController = segue.destination as? ReservationDetails {
@@ -17,6 +17,7 @@ class ReservationsController: UITableViewController {
         }
     }
     
+    //unwind view to home page
     @IBAction func toHome(_ sender: UIButton) {
         self.performSegue(withIdentifier: "toStart", sender: self)
     }
@@ -39,6 +40,7 @@ class ReservationsController: UITableViewController {
         return reservationList.count
     }
 
+    //alert with accessory
     override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
         let title = "Reservation"
         let mesg = "You're reservation is at \(selectedRes.reserveDate). All members of party must be present to be seated."
@@ -58,6 +60,7 @@ class ReservationsController: UITableViewController {
         return cell
     }
     
+    //cell click, go to details
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             performSegue(withIdentifier: "toDetails", sender: self)
     }

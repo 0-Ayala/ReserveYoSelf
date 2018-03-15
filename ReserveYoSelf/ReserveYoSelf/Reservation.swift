@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+//Reservation class declaration
 class  Reservation {
     var name: String
     var reserveDate: String

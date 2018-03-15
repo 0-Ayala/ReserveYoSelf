@@ -10,12 +10,10 @@ import UIKit
 import UserNotifications
 
 class NameAndTimeViewController: UIViewController {
-    //consider bar item over confirm
-    
     @IBOutlet weak var nameText: UITextField!
     
+    //confirsms reservation, creates the reservation in app delegate.
     @IBAction func confirmButton(_ sender: UIButton) {
-        //what's the difference??
         if ((nameText.text?.count)! == 0){
             alertCancel()
         } else if ((nameText.text?.count)! > 17) {
@@ -30,6 +28,7 @@ class NameAndTimeViewController: UIViewController {
         }
     }
     
+    //push notification message.
     func notification(inSeconds: TimeInterval, completion: @escaping (_ Success: Bool) -> ()) {
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: inSeconds, repeats:false)
         
@@ -66,6 +65,7 @@ class NameAndTimeViewController: UIViewController {
         
         present(alertController, animated: true, completion: nil)
     }
+    
     func alertTooLong() {
         let title = "Error"
         let message = "Text field 'NAME' can't be that long. Please abbreviate your name."
